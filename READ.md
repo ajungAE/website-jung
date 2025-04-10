@@ -52,7 +52,7 @@ startlivereload
 > Alias, der folgendes ausführt:
 
 ```bash
-browser-sync start --proxy "ajubuntu" --files "**/*.php" "**/*.twig" "**/*.css" "**/*.html" "**/*.js"
+browser-sync start --proxy "ajubuntu" --port 3001 --files "**/*.php" "**/*.twig" "**/*.css" "**/*.html" "**/*.js"
 ```
 
 > Alternativ über `npm`:
