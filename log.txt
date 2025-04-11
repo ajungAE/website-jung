@@ -1,0 +1,4 @@
+2025-04-11 00:14:04 - SQL: "SELECT * FROM todo ORDER BY id DESC"
+2025-04-11 00:14:04 - GET: [{"id":37,"title":"5","completed":0},{"id":35,"title":"d","completed":1},{"id":30,"title":"2","completed":0}]
+2025-04-11 00:14:13 - SQL: "SELECT * FROM todo ORDER BY id DESC"
+2025-04-11 00:14:13 - GET: [{"id":37,"title":"5","completed":0},{"id":35,"title":"d","completed":1},{"id":30,"title":"2","completed":0}]
