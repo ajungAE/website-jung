@@ -97,8 +97,28 @@ sudo systemctl restart apache2
 # Status prüfen
 sudo systemctl status apache2
 ```
+## ✏️ ToDo-Liste (CRUD)
 
----
+Dieses Feature ermöglicht es, Aufgaben zu erstellen, zu bearbeiten, zu löschen und als erledigt zu markieren – direkt im Browser und ohne Neuladen der Seite.
+
+### 🔧 Technologien
+- PHP (API mit `todo-api.php`)
+- MySQL (via `TodoDB.php`)
+- JavaScript (AJAX/Fetch für dynamische Interaktion)
+- JSON für Datenaustausch
+- Logging über `logging.php`
+
+### 📁 Relevante Dateien
+- `todo.php` – UI-Einstiegspunkt
+- `todo-api.php` – zentrale API für alle Requests
+- `config/TodoDB.php` – DB-Verbindung & Methoden
+- `config/logging.php` – einfache Protokollierung
+- `js/todo.js` – Frontend-Logik
+
+### 🌐 Nutzung
+1. Öffne die Seite über `/todo.php`
+2. Aufgaben verwalten per Formular & Buttons
+3. Live-Updates im UI ohne Reload
 
 ## 👨‍💻 Entwickler
 
